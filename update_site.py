@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
 
-BASE_URL = "https://compare-anything.com"
+BASE_URL = "https://compare-aything.com"
 PAGES_DIR = "pages"
 INDEX_FILE = "index.html"
 SITEMAP_FILE = "sitemap.xml"
@@ -100,7 +100,7 @@ def generate_index_html(pages):
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>compare-anything.com – 比較記事の一覧</title>
+  <title>compare-aything.com – 比較記事の一覧</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="あらゆる商品・サービス・投資対象を比較するプログラマティックSEOサイト。最新記事一覧。">
   <style>
@@ -179,7 +179,7 @@ def generate_tag_pages(pages):
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>タグ: {tag} – compare-anything.com</title>
+  <title>タグ: {tag} – compare-aything.com</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
