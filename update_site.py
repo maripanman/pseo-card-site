@@ -146,7 +146,7 @@ def generate_index_html(pages):
   </style>
 </head>
 <body>
-  <h1>比較記事 一覧</h1>
+  <h1>記事一覧</h1>
 {items_html}
   <footer>最終更新: {updated_at}</footer>
 </body>
